@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\momlabel\\Mom_Label\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15814BB8-FBDB-42AE-B9E1-D9D72FA53AD4}|Mom_Label.csproj|C:\\Users\\Administrator\\Desktop\\momlabel\\Mom_Label\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{15814BB8-FBDB-42AE-B9E1-D9D72FA53AD4}|Mom_Label.csproj|c:\\users\\administrator\\desktop\\momlabel\\mom_label\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{15814BB8-FBDB-42AE-B9E1-D9D72FA53AD4}|Mom_Label.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -67,8 +67,7 @@
               "RelativeToolTip": "Pages\\ProductionReport.grf",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcBAAAQAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC6SURBVDhPnZIBEsQQDEVlZ\u002B/Fzao342Q2P40RFp32zURTI/E/nCWlVO7gZTV4LOUjyQN4E824CRF99aeD6NSsEXU8WASahBAwcSmpWAuib/KtYC2XsIXIXWq8ggvviC6KAl4sAZoCC2ksKOWQsLQGKHxhojWwxQsluJ3xhubvQNxdqWVvAdhdNc85892jEApIwtI32JwBCvnwJSx4B3MWzWYK\u002BpmNihlioXqD3xHvvWb/u4Nx5uH\u002Bzv0AgY20qnxOhY4AAAAASUVORK5CYII=",
-              "WhenOpened": "2026-04-18T19:30:30.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T19:30:30.566Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "Pages\\ProductionOrderPage.cs",
               "ViewState": "AgIAANAAAAAAAAAAAAAewBgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T18:37:48.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T18:37:48.831Z"
             },
             {
               "$type": "Document",
@@ -105,8 +103,7 @@
               "RelativeToolTip": "Utils\\SqlHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T18:24:15.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T18:24:15.968Z"
             },
             {
               "$type": "Document",

@@ -758,8 +758,7 @@
 					"Height":0
 				},
 				"GroupFooter":{
-					"Height":0,
-					"NewPage":"Before"
+					"Height":0
 				}
 			}
 		]
@@ -778,7 +777,8 @@
 			"Name":"CKB"
 		},
 		{
-			"Name":"数量"
+			"Name":"数量",
+			"DataType":"Integer"
 		},
 		{
 			"Name":"QRCodeText"
