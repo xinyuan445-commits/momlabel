@@ -39,3 +39,5 @@ C:\Users\Administrator\Desktop\momlabel\Mom_Label\bin\Debug\net8.0-windows\runti
 C:\Users\Administrator\Desktop\momlabel\Mom_Label\obj\Debug\net8.0-windows\Interop.gregn6Lib.dll
 C:\Users\Administrator\Desktop\momlabel\Mom_Label\obj\Debug\net8.0-windows\Mom_Label.csproj.ResolveComReference.cache
 C:\Users\Administrator\Desktop\momlabel\Mom_Label\bin\Debug\net8.0-windows\Pages\ProductionReport.grf
+C:\Users\Administrator\Desktop\momlabel\Mom_Label\obj\Debug\net8.0-windows\Mom_Label.sourcelink.json
+C:\Users\Administrator\Desktop\momlabel\Mom_Label\bin\Debug\net8.0-windows\Pages\ProcessCardReport.grf

@@ -1,4 +1,4 @@
-﻿﻿﻿﻿namespace Mom_Label
+﻿﻿﻿﻿﻿﻿namespace Mom_Label
 {
     partial class Form1
     {
@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             tabControl1 = new TabControl();
+            tabPage7 = new TabPage();
             tabPage1 = new TabPage();
             button2 = new Button();
             label1 = new Label();
@@ -39,14 +40,22 @@
             tabPage3 = new TabPage();
             tabPage4 = new TabPage();
             tabPage5 = new TabPage();
+            textBox2 = new TextBox();
+            label2 = new Label();
+            button4 = new Button();
+            button3 = new Button();
+            dataGridView2 = new DataGridView();
             tabPage6 = new TabPage();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             SuspendLayout();
             // 
             // tabControl1
             // 
+            tabControl1.Controls.Add(tabPage7);
             tabControl1.Controls.Add(tabPage1);
             tabControl1.Controls.Add(tabPage2);
             tabControl1.Controls.Add(tabPage3);
@@ -58,6 +67,16 @@
             tabControl1.SelectedIndex = 0;
             tabControl1.Size = new Size(1202, 672);
             tabControl1.TabIndex = 0;
+            // 
+            // tabPage7
+            // 
+            tabPage7.Location = new Point(4, 26);
+            tabPage7.Name = "tabPage7";
+            tabPage7.Padding = new Padding(3);
+            tabPage7.Size = new Size(1194, 642);
+            tabPage7.TabIndex = 6;
+            tabPage7.Text = "Main";
+            tabPage7.UseVisualStyleBackColor = true;
             // 
             // tabPage1
             // 
@@ -76,11 +95,11 @@
             // 
             // button2
             // 
-            button2.Location = new Point(723, 55);
+            button2.Location = new Point(423, 73);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
+            button2.Size = new Size(149, 44);
             button2.TabIndex = 4;
-            button2.Text = "button2";
+            button2.Text = "打印";
             button2.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -98,7 +117,8 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(213, 23);
             textBox1.TabIndex = 2;
-            textBox1.Text = "SCDD26012344";
+            textBox1.Text = "SCDD23010069";
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // dataGridView1
             // 
@@ -110,7 +130,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(941, 32);
+            button1.Location = new Point(423, 6);
             button1.Name = "button1";
             button1.Size = new Size(149, 44);
             button1.TabIndex = 0;
@@ -148,12 +168,61 @@
             // 
             // tabPage5
             // 
+            tabPage5.Controls.Add(textBox2);
+            tabPage5.Controls.Add(label2);
+            tabPage5.Controls.Add(button4);
+            tabPage5.Controls.Add(button3);
+            tabPage5.Controls.Add(dataGridView2);
             tabPage5.Location = new Point(4, 26);
             tabPage5.Name = "tabPage5";
             tabPage5.Size = new Size(1194, 642);
             tabPage5.TabIndex = 4;
             tabPage5.Text = "工序流转单";
             tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(134, 43);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(213, 23);
+            textBox2.TabIndex = 4;
+            textBox2.Text = "SCDD23010069";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(37, 46);
+            label2.Name = "label2";
+            label2.Size = new Size(68, 17);
+            label2.TabIndex = 3;
+            label2.Text = "生产订单：";
+            label2.Click += label2_Click;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(423, 73);
+            button4.Name = "button4";
+            button4.Size = new Size(149, 44);
+            button4.TabIndex = 2;
+            button4.Text = "预览";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(423, 6);
+            button3.Name = "button3";
+            button3.Size = new Size(149, 44);
+            button3.TabIndex = 1;
+            button3.Text = "查询";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView2
+            // 
+            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView2.Location = new Point(0, 123);
+            dataGridView2.Name = "dataGridView2";
+            dataGridView2.Size = new Size(1194, 519);
+            dataGridView2.TabIndex = 0;
             // 
             // tabPage6
             // 
@@ -176,6 +245,9 @@
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            tabPage5.ResumeLayout(false);
+            tabPage5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             ResumeLayout(false);
         }
 
@@ -193,5 +265,11 @@
         private TextBox textBox1;
         private DataGridView dataGridView1;
         private Button button2;
+        private Label label2;
+        private Button button4;
+        private Button button3;
+        private DataGridView dataGridView2;
+        private TextBox textBox2;
+        private TabPage tabPage7;
     }
 }

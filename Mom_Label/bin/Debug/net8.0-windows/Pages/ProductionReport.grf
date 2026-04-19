@@ -11,9 +11,9 @@
 	"Printer":{
 		"Oriention":"Landscape",
 		"LeftMargin":0,
-		"TopMargin":3.12208,
+		"TopMargin":3.04271,
 		"RightMargin":0,
-		"BottomMargin":0
+		"BottomMargin":1.71979
 	},
 	"DetailGrid":{
 		"Font":{
@@ -107,7 +107,12 @@
 				"Name":"Column3"
 			},
 			{
-				"Name":"Column4"
+				"Name":"Column4",
+				"Width":3.81
+			},
+			{
+				"Name":"Column5",
+				"Width":4.60375
 			}
 		],
 		"ColumnContent":{
@@ -141,19 +146,42 @@
 						{
 							"Type":"FieldBox",
 							"Name":"FieldBox1",
-							"Width":2.98979,
-							"Height":0.582083,
+							"Left":1.00542,
+							"Top":0.0529167,
+							"Width":2.80458,
+							"Height":0.687917,
 							"DataField":"数量"
 						},
 						{
 							"Type":"FieldBox",
 							"Name":"FieldBox2",
-							"Top":0.608542,
+							"Left":1.00542,
+							"Top":0.635,
 							"Width":2.80458,
 							"Height":0.582083,
 							"DataField":"MoLotCode"
+						},
+						{
+							"Type":"StaticBox",
+							"Name":"StaticBox1",
+							"Top":0.0529167,
+							"Width":1.00542,
+							"Height":0.687917,
+							"Text":"数量："
+						},
+						{
+							"Type":"StaticBox",
+							"Name":"StaticBox2",
+							"Top":0.635,
+							"Width":1.00542,
+							"Height":0.608542,
+							"Text":"批号："
 						}
 					]
+				},
+				{
+					"Column":"Column5",
+					"DataField":"remark"
 				}
 			]
 		},
@@ -189,6 +217,12 @@
 					"Column":"Column4",
 					"TextAlign":"MiddleCenter",
 					"Text":"生产数量"
+				},
+				{
+					"GroupTitle":false,
+					"Column":"Column5",
+					"TextAlign":"MiddleCenter",
+					"Text":"备注"
 				}
 			]
 		}
@@ -268,6 +302,15 @@
 		},
 		{
 			"Name":"部门"
+		},
+		{
+			"Name":"relstime"
+		},
+		{
+			"Name":"uname"
+		},
+		{
+			"Name":"QRCodeText"
 		}
 	],
 	"Control":[
@@ -302,7 +345,7 @@
 				},
 				{
 					"index":6,
-					"Width":4.89479
+					"Width":5.15938
 				}
 			],
 			"FreeGridRow":[
@@ -348,9 +391,10 @@
 					"Font":{
 						"Name":"微软雅黑 Light",
 						"Size":142500,
-						"Weight":290,
+						"Bold":true,
 						"Charset":134
 					},
+					"TextAlign":"MiddleCenter",
 					"Text":"[#{工单号}#]",
 					"RowSpan":2
 				},
@@ -415,6 +459,70 @@
 					"Text":"[#{完工}#]"
 				}
 			]
+		},
+		{
+			"Type":"StaticBox",
+			"Name":"StaticBox3",
+			"Left":0.846667,
+			"Top":19.9496,
+			"Width":1.79917,
+			"Height":0.608542,
+			"Text":"制单人："
+		},
+		{
+			"Type":"StaticBox",
+			"Name":"StaticBox4",
+			"Left":11.0596,
+			"Top":19.9496,
+			"Width":1.79917,
+			"Height":0.608542,
+			"Text":"审核人："
+		},
+		{
+			"Type":"StaticBox",
+			"Name":"StaticBox5",
+			"Left":21.299,
+			"Top":19.9496,
+			"Width":1.79917,
+			"Height":0.608542,
+			"Text":"审核时间："
+		},
+		{
+			"Type":"MemoBox",
+			"Name":"MemoBox2",
+			"Left":5.55625,
+			"Top":19.9496,
+			"Width":2.59292,
+			"Height":0.608542,
+			"Text":"[#{制单人}#]"
+		},
+		{
+			"Type":"MemoBox",
+			"Name":"MemoBox3",
+			"Left":23.8125,
+			"Top":19.9496,
+			"Width":4.78896,
+			"Height":0.582083,
+			"Text":"[#{relstime}#]"
+		},
+		{
+			"Type":"MemoBox",
+			"Name":"MemoBox4",
+			"Left":15.7692,
+			"Top":19.9496,
+			"Width":2.61938,
+			"Height":0.608542,
+			"Text":"[#{uname}#]"
+		},
+		{
+			"Type":"Barcode",
+			"Name":"Barcode1",
+			"Left":26.9875,
+			"Width":1.82563,
+			"Height":1.40229,
+			"BarcodeType":"QRCode",
+			"CaptionPosition":"None",
+			"Text":"[#{QRCodeText}#]"
 		}
 	]
 }
